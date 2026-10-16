@@ -1,0 +1,9 @@
+# Local credentials and private TLS keys
+.env
+.env.*
+!.env.example
+nginx/certs/*.key
+
+# Local generated data
+
+nginx/certs/*.crt
